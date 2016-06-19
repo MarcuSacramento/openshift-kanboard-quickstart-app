@@ -13,3 +13,5 @@ To set this variable, use the following command:
     rhc env set OPENSHIFT_KANBOARD_VERSION=<VERSION> -a <APP NAME>
 
 Then commit and push.
+
+ rhc app create kanboard php-5.4 mysql-5.5 --from-code=git://github.com/MarcuSacramento/openshift-kanboard-quickstart-app.git
